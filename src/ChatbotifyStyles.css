@@ -1,0 +1,28 @@
+/* src/ChatbotifyStyles.css */
+.rcb-chat-window {
+  width: 50% !important;  /* Adjust the width as needed */
+  height: 95% !important; /* Adjust the height as needed */
+  margin: auto;           /* Center the chat window */
+  top: 10%;               /* Adjust top position */
+  left: 10%;              /* Adjust left position */
+  right: 10%;             /* Adjust right position */
+  bottom: 10%;            /* Adjust bottom position */
+}
+
+.rcb-user-message, .rcb-bot-message {
+  outline: none;
+}
+
+.rcb-user-message:focus, .rcb-bot-message:focus {
+  border: 2px dotted blue;
+}
+
+.rcb-bot-message-entry {
+  background-color: transparent !important;
+  border: none !important;
+  color: black !important;
+}
+
+.rcb-options-container, .rcb-quick-reply {
+  display: none !important;
+}
